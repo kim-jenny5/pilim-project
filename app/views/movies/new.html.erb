@@ -1,0 +1,39 @@
+<div class="container my-auto form_container">
+  <div class="row">
+    <h3 class="page_title">Add a New Movie</h3>
+  </div>
+  <div class="row mb-3">
+    <small>⚠️ You won't be able to edit it later, so make sure all the information is correct! ⚠️</small>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col nopadding">
+        <%= render partial: "application/error_messages", locals: { term: @movie } %>
+      </div>
+    </div>
+    <%= form_for @movie do |f| %>
+      <div class="form-group mx-auto">
+        <div class="row mb-3 w-75">
+          <div class="col nopadding">
+            <%= f.text_field :title, placeholder: "Title", class: "form-control" %>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-4 nopadding">
+            <%= f.collection_select :genre, @movie_genres, :genre, :genre, {prompt: "Select genre"}, {class: "form-select text-muted"} %>
+          </div>
+          <div class="col">
+            <div class="row year_field">
+              <%= f.text_field :year, placeholder: "Year", class: "form-control" %>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col nopadding">
+            <%= f.submit "Submit", class: "btn btn-custom" %>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

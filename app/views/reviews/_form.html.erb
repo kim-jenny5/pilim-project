@@ -1,0 +1,15 @@
+<div class="row mt-2 mb-4">
+  <div class="col nopadding">
+    <%= f.text_field :title, placeholder: "Title", class: "form-control" %>
+  </div>
+  <div class="col-2 nopadding text-end">
+    <%= f.label "Rating (1-5)", class: "form-label pt-2" %>
+  </div>
+  <div class="col-2 rating_field">
+    <%= f.number_field :rating, {class: "form-control", min: 1, max: 5} %>
+  </div>
+</div>
+<div class="row">
+  <%= f.label :comment, class: "form-label nopadding" %>
+  <%= f.text_area :comment, rows: 6, class: "form-control" %>
+</div>

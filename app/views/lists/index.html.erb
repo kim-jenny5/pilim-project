@@ -1,0 +1,40 @@
+<div class="container-fluid mt-5">
+  <div class="container">
+    <div class="row mb-3">
+      <h1 class="black_page_title">Browse through all lists</h1>
+    </div>
+    <div class="row mb-4">
+      <div class="col-6">
+        <%= form_tag lists_path, method: :get do %>
+          <div class="input-group">
+            <%= search_field_tag :search, nil, placeholder: "Search for a list", class: "form-control" %>
+            <%= submit_tag "Search", name: nil, class: "btn movie_list_btn" %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+    <div class="row">
+      <div class="container flash_msg_container">
+        <% if flash[:message] %>
+          <%= render "application/flash_messages" %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row mb-5">
+      <div class="row row-cols-1 row-cols-md-2 g-4 mt-0">
+        <% @lists.each do |list| %>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title"><%= link_to list.title, list_path(list), {class: "custom_link"} %></h5>
+                <p class="card-text text-muted"><%= list.description %></p>
+              </div>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

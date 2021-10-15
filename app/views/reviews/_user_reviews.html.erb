@@ -1,0 +1,17 @@
+<div class="row text-center">
+  <h2 class="page_title">Reviews by</h2>
+  <h5><%= link_to "@#{@user.username}", user_path(@user), class: "text-muted user_link" %></h5>
+</div>
+<% @reviews.each do |review| %>
+  <div class="row mt-4">
+    <div class="row">
+      <div class="col movie_review_title">
+        <%= link_to review.movie.title, movie_path(review.movie), class: "custom_link" %>
+      </div>
+    </div>
+    <%= render partial: "review_details", locals: {review: review} %>
+    <% if @user == current_user %>
+      <%= render partial: "edit_delete", locals: {review: review} %>
+    <% end %>
+  </div>
+<% end %>
