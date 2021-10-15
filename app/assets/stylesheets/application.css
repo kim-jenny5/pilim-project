@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
-@font-face {
+/* @font-face {
     font-family: "Montserrat-Thin";
     src: url("Montserrat-Thin.ttf");
     font-display: block;
@@ -113,364 +113,416 @@
     font-family: "Montserrat-Black";
     src: url("Montserrat-Black.ttf");
     font-display: block;
-}
+} */
 
 /* GENERAL --------------------------------------------- */
 
 * {
-    font-family: "Montserrat-Regular"
+  font-family: "Montserrat", sans-serif;
 }
 
 .not_found_img {
-    margin: 50px 0 30px 0;
+  margin: 50px 0 30px 0;
 }
 
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:active {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .custom_link {
-    color: #F4845F !important;
+  color: #f4845f !important;
 }
 
 .custom_link:hover {
-    color: #F7B267 !important;
+  color: #f7b267 !important;
 }
 
 .card-text {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .page_padding {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .oops {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .error_messages {
-    color: darkred;
-    font-size: 14px;
+  color: darkred;
+  font-size: 14px;
 }
 
 .page_title {
-    color: #F27059;
-    font-family: "Montserrat-Bold";
+  color: #f27059;
+  /* font-family: "Montserrat-Bold"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 .black_page_title {
-    font-family: "Montserrat-SemiBold";
+  /* font-family: "Montserrat-SemiBold"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 
 .form_container {
-    max-width: 700px !important;
+  max-width: 700px !important;
 }
 
 /* HEADER & FOOTER --------------------------------------------- */
 
 .navbar-custom {
-    background-color: #fdf7f0;
+  background-color: #fdf7f0;
 }
 
 .nav-link {
-    color: #F27059 !important;
-    font-family: "Montserrat-Medium";
+  color: #f27059 !important;
+  /* font-family: "Montserrat-Medium"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
 .nav-link:hover {
-    color: #F7B267 !important;
+  color: #f7b267 !important;
 }
 
 .no_picture_logo {
-    font-family: "Montserrat-Bold";
+  /* font-family: "Montserrat-Bold"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 .app_name {
-    color: black;
+  color: black;
 }
 
 #signup_link {
-    font-family: "Montserrat-Bold";
-    background-color: #F25C54 !important;
-    color: white !important;
-    padding-right: 25px;
-    padding-left: 25px;
-    border-radius: 20px;
+  /* font-family: "Montserrat-Bold"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: #f25c54 !important;
+  color: white !important;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 20px;
 }
 
 #login_link {
-    color: #F25C54;
-    padding-right: 25px;
-    padding-left: 25px;
-    border: 2px solid #F25C54;
-    border-radius: 20px;
+  color: #f25c54;
+  padding-right: 25px;
+  padding-left: 25px;
+  border: 2px solid #f25c54;
+  border-radius: 20px;
 }
 
 .logout_button {
-    font-family: "Montserrat-Bold";
-    color: #F25C54;
-    background-color: transparent;
-    border: none;
+  /* font-family: "Montserrat-Bold"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #f25c54;
+  background-color: transparent;
+  border: none;
 }
 
 footer {
-    bottom: 0;
-    width: 100%;
-    background-color: #fdf7f0;
-    text-align: center;
+  bottom: 0;
+  width: 100%;
+  background-color: #fdf7f0;
+  text-align: center;
 }
 
 #footer_name {
-    font-family: "Montserrat-ExtraLight";
+  /* font-family: "Montserrat-ExtraLight"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
 }
 
 #copyright {
-    font-size: smaller;
+  font-size: smaller;
 }
 
 /* HOMEPAGE --------------------------------------------- */
 
 .homepage_text {
-    margin-left: 100px;
+  margin-left: 100px;
 }
 
 h1.homepage_text {
-    font-family: "Montserrat-Bold";
-    margin-top: 50px;
+  /* font-family: "Montserrat-Bold"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-top: 50px;
 }
 
 .card_group {
-    margin-left: 100px;
-    margin-top: 100px;
-    position: absolute;
+  margin-left: 100px;
+  margin-top: 100px;
+  position: absolute;
 }
 
 .card-link {
-    font-family: "Montserrat-SemiBold";
-    color: #F27059;
+  /* font-family: "Montserrat-SemiBold"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #f27059;
 }
 
 .card-link:hover {
-    color: #F7B267 !important;
+  color: #f7b267 !important;
 }
 
-
 .homepage_img {
-    float: right;
-    line-height: 0;
-    margin-right: 40px;
+  float: right;
+  line-height: 0;
+  margin-right: 40px;
 }
 
 /* SIGNUP & LOGIN FORM --------------------------------------------- */
 
 .signup_form_padding {
-    padding-left: 250px;   
+  padding-left: 250px;
 }
 
 .login_form_padding {
-    padding-top: 60px;
+  padding-top: 60px;
 }
 
 .alt_button {
-    color: #F27059;
-    font-family: "Montserrat-Medium";
+  color: #f27059;
+  /* font-family: "Montserrat-Medium"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
 .first_last_name {
-    width: 50%;
+  width: 50%;
 }
 
 #incorrect_credentials {
-    font-family: "Montserrat-Light";
-    font-size: 14px;
+  /* font-family: "Montserrat-Light"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
 }
-
-.btn-custom {
-   background-color: #F25C54 !important;
-   font-family: "Montserrat-SemiBold";
-   color: white !important;
-   border-radius: 18px !important;
+s .btn-custom {
+  background-color: #f25c54 !important;
+  /* font-family: "Montserrat-SemiBold"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: white !important;
+  border-radius: 18px !important;
 }
 
 .btn-google {
-    background-color: #4285F4 !important;
-    color: white !important;
-    font-size: smaller !important;
+  background-color: #4285f4 !important;
+  color: white !important;
+  font-size: smaller !important;
 }
 
 .btn-facebook {
-    background-color: #4267B2 !important;
-    color: white !important;
-    font-size: smaller !important;
+  background-color: #4267b2 !important;
+  color: white !important;
+  font-size: smaller !important;
 }
 
 /* USER DASHBOARD (SHOW PAGE) --------------------------------------------- */
 
 .username_font {
-    font-family: "Montserrat-BoldItalic";
+  /* font-family: "Montserrat-BoldItalic"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .someones_list {
-    font-family: "Montserrat-LightItalic";
-    font-size: 18px;
+  /* font-family: "Montserrat-LightItalic"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
 }
 
 .joined_date {
-    font-family: "Montserrat-Light";
-    font-size: 18px;
+  /* font-family: "Montserrat-Light"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 #edit_profile_container {
-    width: 500px;
+  width: 500px;
 }
 
 .edit_name_field {
-    width: 50% !important;
+  width: 50% !important;
 }
 
 /* REVIEWS --------------------------------------------- */
 
 .review_container {
-    max-width: 1000px !important;
+  max-width: 1000px !important;
 }
 
 .edit_button {
-    color: #F25C54 !important;
-    font-family: "Montserrat-Medium";
-    font-size: 13px !important;
+  color: #f25c54 !important;
+  /* font-family: "Montserrat-Medium"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 13px !important;
 }
 
 .delete_button {
-    color: #F79D65 !important;
-    font-size: 12px !important;
+  color: #f79d65 !important;
+  font-size: 12px !important;
 }
 
 .movie_review_title {
-    padding-left: 0 !important;
-    font-size: 15px;
+  padding-left: 0 !important;
+  font-size: 15px;
 }
 
 .star_row_padding {
-    padding-left: 0 !important;    
+  padding-left: 0 !important;
 }
 
 .star_sizing {
-    font-size: 14px;
-    padding: 1px 6px 0 0;
+  font-size: 14px;
+  padding: 1px 6px 0 0;
 }
 
 .review_comment {
-    font-size: 15px;
-    padding-left: 0 !important;   
+  font-size: 15px;
+  padding-left: 0 !important;
 }
 
 .user_link:hover {
-    color: #F25C54 !important;
+  color: #f25c54 !important;
 }
 
 .movie_title_padding_review {
-    padding: 6px 0 0 7px;
+  padding: 6px 0 0 7px;
 }
 
 .nopadding {
-    padding: 0 !important;
-    margin: 0 !important;
- }
+  padding: 0 !important;
+  margin: 0 !important;
+}
 
- /* MOVIES --------------------------------------------- */
+/* MOVIES --------------------------------------------- */
 
 .movie_list_btn {
-    background-color: #F25C54 !important;
-    font-family: "Montserrat-SemiBold";
-    color: white !important; 
-    font-size: 14px !important;
+  background-color: #f25c54 !important;
+  /* font-family: "Montserrat-SemiBold"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: white !important;
+  font-size: 14px !important;
 }
 
 .search_bar {
-    width: 150% !important;
+  width: 150% !important;
 }
 
 .flash_msg_container {
-    width: max-content !important;
+  width: max-content !important;
 }
 
 .year_field {
-    width: 20% !important;
-    margin-left: 5px !important;
+  width: 20% !important;
+  margin-left: 5px !important;
 }
 
 .movie_page_title {
-    color: #F27059;
-    font-family: "Montserrat-ExtraBold";
+  color: #f27059;
+  /* font-family: "Montserrat-ExtraBold"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
 }
 
 .movie_details {
-    font-size: 17px;
+  font-size: 17px;
 }
 
 .add_review_font {
-    font-size: 14px !important;
+  font-size: 14px !important;
 }
 
 .movie_subtitles {
-    font-family: "Montserrat-Light";   
+  /* font-family: "Montserrat-Light"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
 
 .more_reviews_link {
-    font-family: "Montserrat-MediumItalic";
-    font-size: 14px;
+  /* font-family: "Montserrat-MediumItalic"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 14px;
 }
 
- /* LISTS --------------------------------------------- */
+/* LISTS --------------------------------------------- */
 
- .list_edit_btn {
-    background-color: #F25C54 !important;
-    font-family: "Montserrat-SemiBold";
-    color: white !important;
-    border-radius: 18px !important;
-    margin-right: 5px !important;
-    padding: 0 15px 0 15px !important;
-    font-size: 15px !important;
- }
+.list_edit_btn {
+  background-color: #f25c54 !important;
+  /* font-family: "Montserrat-SemiBold"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: white !important;
+  border-radius: 18px !important;
+  margin-right: 5px !important;
+  padding: 0 15px 0 15px !important;
+  font-size: 15px !important;
+}
 
- .list_delete_btn {
-    color: #F79D65 !important;
-    font-family: "Montserrat-Medium";
-    font-size: 15px !important;
- }
+.list_delete_btn {
+  color: #f79d65 !important;
+  /* font-family: "Montserrat-Medium"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 15px !important;
+}
 
- #list_creator {
-     font-family: "Montserrat-Italic";
-     padding-right: 5px !important;
- }
+#list_creator {
+  /* font-family: "Montserrat-Italic"; */
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  padding-right: 5px !important;
+}
 
- #movie_list_search {
-    max-width: 25% !important;   
- }
+#movie_list_search {
+  max-width: 25% !important;
+}
 
 .table_header {
-    font-family: "Montserrat-MediumItalic";
+  /* font-family: "Montserrat-MediumItalic"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: italic;
 }
 
 .list_container {
-    max-width: 1000px !important;
+  max-width: 1000px !important;
 }
 
 .list_add_btn {
-    background-color: #F25C54 !important;
-    font-family: "Montserrat-SemiBold";
-    color: white !important;
-    border-radius: 18px !important;
-    margin-left: 5px !important;
-    padding: 0 12px 0 12px !important;
-    font-size: 15px !important;
- }
+  background-color: #f25c54 !important;
+  /* font-family: "Montserrat-SemiBold"; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: white !important;
+  border-radius: 18px !important;
+  margin-left: 5px !important;
+  padding: 0 12px 0 12px !important;
+  font-size: 15px !important;
+}
