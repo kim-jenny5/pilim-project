@@ -13,107 +13,6 @@
  *= require_tree .
  *= require_self
  */
-/* @font-face {
-    font-family: "Montserrat-Thin";
-    src: url("Montserrat-Thin.ttf");
-    font-display: block;
-}
-
-@font-face {
-    font-family: "Montserrat-SemiBoldItalic";
-    src: url("Montserrat-SemiBoldItalic.ttf");
-    font-display: block;
-}
-
-@font-face {
-    font-family: "Montserrat-SemiBold";
-    src: url("Montserrat-SemiBold.ttf");
-    font-display: block;
-}
-
-@font-face {
-    font-family: "Montserrat-Regular";
-    src: url("Montserrat-Regular.ttf");
-    font-display: block;
-}
-
-@font-face {
-    font-family: "Montserrat-MediumItalic";
-    src: url("Montserrat-MediumItalic.ttf");
-    font-display: block;
-}
-
-@font-face {
-    font-family: "Montserrat-Medium";
-    src: url("Montserrat-Medium.ttf");
-    font-display: block;
-}
-
-@font-face {
-    font-family: "Montserrat-LightItalic";
-    src: url("Montserrat-LightItalic.ttf");
-    font-display: block;
-}
-
-@font-face {
-    font-family: "Montserrat-Light";
-    src: url("Montserrat-Light.ttf");
-    font-display: block;
-}
-
-@font-face {
-    font-family: "Montserrat-Italic";
-    src: url("Montserrat-Italic.ttf");
-    font-display: block;
-}
-
-@font-face {
-    font-family: "Montserrat-ExtraLightItalic";
-    src: url("Montserrat-ExtraLightItalic.ttf");
-    font-display: block;
-}
-
-@font-face {
-    font-family: "Montserrat-ExtraLight";
-    src: url("Montserrat-ExtraLight.ttf");
-    font-display: block;
-}
-
-@font-face {
-    font-family: "Montserrat-ExtraBoldItalic";
-    src: url("Montserrat-ExtraBoldItalic.ttf");
-    font-display: block;
-}
-
-@font-face {
-    font-family: "Montserrat-ExtraBold";
-    src: url("Montserrat-ExtraBold.ttf");
-    font-display: block;
-}
-
-@font-face {
-    font-family: "Montserrat-BoldItalic";
-    src: url("Montserrat-BoldItalic.ttf");
-    font-display: block;
-}
-
-@font-face {
-    font-family: "Montserrat-Bold";
-    src: url("Montserrat-Bold.ttf");
-    font-display: block;
-}
-
-@font-face {
-    font-family: "Montserrat-BlackItalic";
-    src: url("Montserrat-BlackItalic.ttf");
-    font-display: block;
-}
-
-@font-face {
-    font-family: "Montserrat-Black";
-    src: url("Montserrat-Black.ttf");
-    font-display: block;
-} */
 
 /* GENERAL --------------------------------------------- */
 
@@ -164,14 +63,10 @@ a:active {
 
 .page_title {
   color: #f27059;
-  /* font-family: "Montserrat-Bold"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 
 .black_page_title {
-  /* font-family: "Montserrat-SemiBold"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
 
@@ -187,8 +82,6 @@ a:active {
 
 .nav-link {
   color: #f27059 !important;
-  /* font-family: "Montserrat-Medium"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
 
@@ -197,8 +90,6 @@ a:active {
 }
 
 .no_picture_logo {
-  /* font-family: "Montserrat-Bold"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 
@@ -207,8 +98,6 @@ a:active {
 }
 
 #signup_link {
-  /* font-family: "Montserrat-Bold"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   background-color: #f25c54 !important;
   color: white !important;
@@ -226,8 +115,6 @@ a:active {
 }
 
 .logout_button {
-  /* font-family: "Montserrat-Bold"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #f25c54;
   background-color: transparent;
@@ -242,8 +129,6 @@ footer {
 }
 
 #footer_name {
-  /* font-family: "Montserrat-ExtraLight"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: 200;
 }
 
@@ -258,8 +143,6 @@ footer {
 }
 
 h1.homepage_text {
-  /* font-family: "Montserrat-Bold"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   margin-top: 50px;
 }
@@ -271,8 +154,6 @@ h1.homepage_text {
 }
 
 .card-link {
-  /* font-family: "Montserrat-SemiBold"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: #f27059;
 }
@@ -299,8 +180,6 @@ h1.homepage_text {
 
 .alt_button {
   color: #f27059;
-  /* font-family: "Montserrat-Medium"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
 
@@ -309,15 +188,11 @@ h1.homepage_text {
 }
 
 #incorrect_credentials {
-  /* font-family: "Montserrat-Light"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 14px;
 }
-s .btn-custom {
+.btn-custom {
   background-color: #f25c54 !important;
-  /* font-family: "Montserrat-SemiBold"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: white !important;
   border-radius: 18px !important;
@@ -338,23 +213,17 @@ s .btn-custom {
 /* USER DASHBOARD (SHOW PAGE) --------------------------------------------- */
 
 .username_font {
-  /* font-family: "Montserrat-BoldItalic"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-style: italic;
 }
 
 .someones_list {
-  /* font-family: "Montserrat-LightItalic"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-style: italic;
   font-size: 18px;
 }
 
 .joined_date {
-  /* font-family: "Montserrat-Light"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 18px;
 }
@@ -375,8 +244,6 @@ s .btn-custom {
 
 .edit_button {
   color: #f25c54 !important;
-  /* font-family: "Montserrat-Medium"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 13px !important;
 }
@@ -422,8 +289,6 @@ s .btn-custom {
 
 .movie_list_btn {
   background-color: #f25c54 !important;
-  /* font-family: "Montserrat-SemiBold"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: white !important;
   font-size: 14px !important;
@@ -444,8 +309,6 @@ s .btn-custom {
 
 .movie_page_title {
   color: #f27059;
-  /* font-family: "Montserrat-ExtraBold"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: 800;
 }
 
@@ -458,14 +321,10 @@ s .btn-custom {
 }
 
 .movie_subtitles {
-  /* font-family: "Montserrat-Light"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: 300;
 }
 
 .more_reviews_link {
-  /* font-family: "Montserrat-MediumItalic"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-style: italic;
   font-size: 14px;
@@ -475,8 +334,6 @@ s .btn-custom {
 
 .list_edit_btn {
   background-color: #f25c54 !important;
-  /* font-family: "Montserrat-SemiBold"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: white !important;
   border-radius: 18px !important;
@@ -487,15 +344,11 @@ s .btn-custom {
 
 .list_delete_btn {
   color: #f79d65 !important;
-  /* font-family: "Montserrat-Medium"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 15px !important;
 }
 
 #list_creator {
-  /* font-family: "Montserrat-Italic"; */
-  font-family: "Montserrat", sans-serif;
   font-style: italic;
   padding-right: 5px !important;
 }
@@ -505,8 +358,6 @@ s .btn-custom {
 }
 
 .table_header {
-  /* font-family: "Montserrat-MediumItalic"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-style: italic;
 }
@@ -517,8 +368,6 @@ s .btn-custom {
 
 .list_add_btn {
   background-color: #f25c54 !important;
-  /* font-family: "Montserrat-SemiBold"; */
-  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: white !important;
   border-radius: 18px !important;
