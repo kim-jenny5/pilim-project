@@ -1,4 +1,4 @@
-_Omniauth options for Google and Facebook currently **do not** work._
+_Omniauth options for Google and Facebook currently **do not** work for production._
 
 # Pilim
 
