@@ -26,8 +26,9 @@ To view locally:
 To view via Heroku:
 
 - Visit https://pilim-project.herokuapp.com/
-- Either create a new account or log in through the site.
-- **Omniauth options for Google and Facebook currently DO NOT work.**
+- Create a new account, log in, OR simply peruse the site
+
+**Omniauth options for Google and Facebook currently DO NOT work for production.**
 
 ## License
 
